@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ══════════════════════════════════════════════════════════════════
+       EDIT MAP — 需要替换的内容都在下面这几处：
+       ① 搜索 "Jane Chen"                → 你的名字
+       ② 搜索 "University of X"          → 你的学校 / 院系
+       ③ 搜索 "jane.chen@university.edu" → 你的邮箱
+       ④ 搜索 scholar.google / orcid.org / github.com → 你的个人主页链接
+       ⑤ Research / Publications / News 三个 section → 你的内容
+       ⑥ portrait.svg → 换成你的照片（见 README）
+       ⑦ 把你的 CV 命名为 cv.pdf 放进本文件夹
+       ══════════════════════════════════════════════════════════════════ -->
+
+  <title>Jingchun Xie — Planetary Scientist</title>
+  <meta name="description" content="I am a postdoctoral researcher in planetary science at The Chinese University of Hong Kong, studying the interactions of mantle dynamics and surface tectonic processes of rocky planets such as Mercury, Mars and Venus.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jane Chen — Planetary Scientist">
+  <meta property="og:description" content="Postdoctoral researcher studying the geology, ice shells and hidden oceans of icy moons.">
+  <meta property="og:url" content="https://janechen.github.io/">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,340..620;1,9..144,340..620&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jane Chen",
+    "url": "https://janechen.github.io/",
+    "jobTitle": "Postdoctoral Researcher",
+    "affiliation": { "@type": "Organization", "name": "University of X" },
+    "alumniOf": { "@type": "Organization", "name": "California Institute of Technology" },
+    "knowsAbout": ["Planetary science", "Icy moons", "Europa", "Titan", "Ice-shell dynamics"],
+    "sameAs": [
+      "https://scholar.google.com/citations?user=EDIT",
+      "https://orcid.org/0000-0000-0000-0000",
+      "https://github.com/janechen"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="site-header__name" href="#top">Jane Chen</a>
+      <nav class="site-nav" aria-label="Sections">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#news">News</a>
+        <a href="#contact">CV &amp; Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ── Hero ─────────────────────────────────────────────────────── -->
+    <section class="hero wrap" id="top" aria-labelledby="hero-name">
+      <div class="hero__text">
+        <p class="eyebrow reveal">Planetary Science</p>
+        <h1 class="hero__name reveal" id="hero-name">Jane Chen</h1>
+        <p class="hero__role reveal">Postdoctoral Researcher</p>
+        <p class="hero__affil reveal">Department of Earth &amp; Planetary Sciences · University of X</p>
+        <p class="hero__lede reveal">I study how icy moons keep their oceans — reading the
+          geology of Europa, Titan and Enceladus for signs of the water hidden
+          beneath their frozen crusts.</p>
+        <ul class="link-row reveal" aria-label="Profiles">
+          <li><a href="https://scholar.google.com/citations?user=EDIT" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a></li>
+          <li><a href="https://orcid.org/0000-0000-0000-0000" target="_blank" rel="noopener">ORCID <span aria-hidden="true">↗</span></a></li>
+          <li><a href="cv.pdf">CV <span aria-hidden="true">↓</span></a></li>
+          <li><a href="mailto:jane.chen@university.edu">Email</a></li>
+        </ul>
+      </div>
+      <figure class="hero__portrait reveal">
+        <!-- 换成你的照片：把 portrait.jpg 放进本文件夹，并把 src 改为 portrait.jpg -->
+        <img src="portrait.svg" alt="Portrait of Jane Chen" width="480" height="600">
+      </figure>
+    </section>
+
+    <!-- ── 01 · Research ────────────────────────────────────────────── -->
+    <section class="section wrap" id="research" aria-labelledby="research-title">
+      <header class="section__head reveal">
+        <span class="section__num" aria-hidden="true">01</span>
+        <h2 class="section__title" id="research-title">Research</h2>
+      </header>
+      <p class="section__intro reveal">I work at the boundary of geophysics and geology, using
+        numerical models and spacecraft data to understand how ocean worlds work — how heat
+        and material move through their ice shells, and what their surfaces record about the
+        oceans below. Much of my current effort goes toward the coming science return of
+        <em>Europa Clipper</em> and <em>JUICE</em>.</p>
+      <ol class="topics">
+        <li class="topic reveal">
+          <h3>Ice-shell dynamics</h3>
+          <p>How do tidal heating and convection shape the shells of Europa and Enceladus?
+            I build numerical models that connect interior heat flow to the tectonic
+            features observed at the surface.</p>
+        </li>
+        <li class="topic reveal">
+          <h3>Geology of icy moons</h3>
+          <p>I map tectonic and fluvial features on Europa and Titan in Cassini, Galileo
+            and Voyager data, using the surface as a record of each moon’s interior
+            and climate history.</p>
+        </li>
+        <li class="topic reveal">
+          <h3>Habitability of ocean worlds</h3>
+          <p>From plume geochemistry at Enceladus to material exchange on Europa, I study
+            how ice shells transport material between the ocean and space — and what that
+            means for the search for life.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ── 02 · Publications ────────────────────────────────────────── -->
+    <section class="section wrap" id="publications" aria-labelledby="pubs-title">
+      <header class="section__head reveal">
+        <span class="section__num" aria-hidden="true">02</span>
+        <h2 class="section__title" id="pubs-title">Selected Publications</h2>
+      </header>
+      <ol class="pubs">
+        <li class="pub reveal">
+          <span class="pub__year">2025</span>
+          <div class="pub__body">
+            <a class="pub__title" href="https://doi.org/EDIT" target="_blank" rel="noopener">Tidal-heating patterns in Europa’s ice shell inferred from tectonic resurfacing</a>
+            <p class="pub__authors"><strong>Chen, J.</strong>, Müller, A., &amp; Park, S.</p>
+            <p class="pub__venue"><cite>Nature Astronomy</cite>, 9, 412–421 <a href="https://doi.org/EDIT" target="_blank" rel="noopener">PDF</a> <a href="https://doi.org/EDIT" target="_blank" rel="noopener">DOI</a></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <span class="pub__year">2025</span>
+          <div class="pub__body">
+            <a class="pub__title" href="https://doi.org/EDIT" target="_blank" rel="noopener">Convective upwellings and the formation of chaos terrain on Europa</a>
+            <p class="pub__authors"><strong>Chen, J.</strong> &amp; Alvarez, M.</p>
+            <p class="pub__venue"><cite>Journal of Geophysical Research: Planets</cite>, 130(4) <a href="https://doi.org/EDIT" target="_blank" rel="noopener">PDF</a> <a href="https://doi.org/EDIT" target="_blank" rel="noopener">DOI</a></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <span class="pub__year">2024</span>
+          <div class="pub__body">
+            <a class="pub__title" href="https://doi.org/EDIT" target="_blank" rel="noopener">Methane hydrology and fluvial erosion on Titan from Cassini RADAR</a>
+            <p class="pub__authors">Rossi, L., <strong>Chen, J.</strong>, Dubois, T., &amp; Kim, H.</p>
+            <p class="pub__venue"><cite>Icarus</cite>, 408, 115812 <a href="https://doi.org/EDIT" target="_blank" rel="noopener">PDF</a> <a href="https://doi.org/EDIT" target="_blank" rel="noopener">DOI</a></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <span class="pub__year">2023</span>
+          <div class="pub__body">
+            <a class="pub__title" href="https://doi.org/EDIT" target="_blank" rel="noopener">Plume fallout and surface composition near Enceladus’s south pole</a>
+            <p class="pub__authors"><strong>Chen, J.</strong> &amp; Tanaka, K.</p>
+            <p class="pub__venue"><cite>Geophysical Research Letters</cite>, 50(18) <a href="https://doi.org/EDIT" target="_blank" rel="noopener">PDF</a> <a href="https://doi.org/EDIT" target="_blank" rel="noopener">DOI</a></p>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <span class="pub__year">2023</span>
+          <div class="pub__body">
+            <span class="pub__title">Reading the ice shells of ocean worlds</span>
+            <p class="pub__authors"><strong>Chen, J.</strong></p>
+            <p class="pub__venue"><cite>PhD thesis</cite>, California Institute of Technology <a href="https://doi.org/EDIT" target="_blank" rel="noopener">PDF</a></p>
+          </div>
+        </li>
+      </ol>
+      <p class="section__more reveal">Full list on <a href="https://scholar.google.com/citations?user=EDIT" target="_blank" rel="noopener">Google Scholar ↗</a></p>
+    </section>
+
+    <!-- ── 03 · News ────────────────────────────────────────────────── -->
+    <section class="section wrap" id="news" aria-labelledby="news-title">
+      <header class="section__head reveal">
+        <span class="section__num" aria-hidden="true">03</span>
+        <h2 class="section__title" id="news-title">News</h2>
+      </header>
+      <ul class="news">
+        <li class="news__item reveal">
+          <span class="news__date">Sep 2026</span>
+          <p>Started my postdoc at the University of X — new group, new moons.</p>
+        </li>
+        <li class="news__item reveal">
+          <span class="news__date">May 2026</span>
+          <p>Gave an invited talk on Europa’s ice-shell tectonics at <a href="https://doi.org/EDIT" target="_blank" rel="noopener">EPSC 2026</a>.</p>
+        </li>
+        <li class="news__item reveal">
+          <span class="news__date">Mar 2026</span>
+          <p>Grateful to receive a three-year fellowship supporting my work on ocean-world habitability.</p>
+        </li>
+        <li class="news__item reveal">
+          <span class="news__date">Dec 2025</span>
+          <p>Defended my PhD at Caltech. Thanks to everyone who came — in person and on Zoom.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ── 04 · CV & Contact ────────────────────────────────────────── -->
+    <section class="section wrap" id="contact" aria-labelledby="contact-title">
+      <header class="section__head reveal">
+        <span class="section__num" aria-hidden="true">04</span>
+        <h2 class="section__title" id="contact-title">CV &amp; Contact</h2>
+      </header>
+      <div class="contact">
+        <div class="contact__main reveal">
+          <p class="contact__heading">Get in touch</p>
+          <p>I’m always happy to talk about icy moons — collaborations, talks, or questions
+            from students. The fastest way to reach me is email.</p>
+          <a class="contact__email" href="mailto:jane.chen@university.edu">jane.chen@university.edu</a>
+        </div>
+        <dl class="contact__list reveal">
+          <div>
+            <dt>Office</dt>
+            <dd>Room 214, Earth Science Building<br>University of X</dd>
+          </div>
+          <div>
+            <dt>Curriculum Vitae</dt>
+            <dd><a href="cv.pdf">Download PDF ↓</a> <span class="contact__note">(updated Sep 2026)</span></dd>
+          </div>
+          <div>
+            <dt>Elsewhere</dt>
+            <dd>
+              <a href="https://scholar.google.com/citations?user=EDIT" target="_blank" rel="noopener">Google Scholar</a> ·
+              <a href="https://orcid.org/0000-0000-0000-0000" target="_blank" rel="noopener">ORCID</a> ·
+              <a href="https://github.com/janechen" target="_blank" rel="noopener">GitHub</a>
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap site-footer__inner">
+      <p>© <span id="year">2026</span> Jane Chen</p>
+      <p class="site-footer__meta">Last updated <time id="updated">September 2026</time> · Plain HTML &amp; CSS, hosted on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
